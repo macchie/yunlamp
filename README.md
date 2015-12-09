@@ -1,10 +1,10 @@
-# Koonic Starter
+# YunLamp
 
-A powerful Ionic Starter including Jade, Sass &amp; Coffee.
+A simple Ionic Application that controls an Arduino RGB Lamp using Spacebrew.cc
 
 ## Setup
 
-Requirements to use this starter:
+Requirements to use this sapp:
 
 ##### Node.js (https://nodejs.org/download/)
 
@@ -50,6 +50,7 @@ and enjoy! :)
 * CoffeeScript (http://coffeescript.org)
 * Sass (http://sass-lang.com)
 * Jade (http://jade-lang.com)
+* Spacebrew (http://spacebrew.cc)
 
 ## Copyright
 Copyright © [2015] Andrea Macchieraldo
