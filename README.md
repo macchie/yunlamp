@@ -60,6 +60,8 @@ $ ionic serve
 ```
 and enjoy! :)
 
+## Testing the App with IonicView
+You can also preview our beta app on your Ionic View by previewing this code: **5163c3c5**
 
 ## More info
 
