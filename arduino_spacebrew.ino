@@ -1,34 +1,8 @@
-/*
-  Spacebrew Range
- 
- Demonstrates how to create a sketch that sends and receives analog
- range value to and from Spacebrew. Every time the state of the 
- potentiometer (or other analog input component) change a spacebrew
- message is sent. The sketch also accepts analog range messages from 
- other Spacebrew apps.
-
- Make sure that your Yun is connected to the internet for this example 
- to function properly.
- 
- The circuit:
- - Potentiometer connected to Yun. Middle pin connected to analog pin A0, 
-   other pins connected to 5v and GND pins.
- 
- created 2013
- by Julio Terra
- 
- This example code is in the public domain.
- 
- More information about Spacebrew is available at: 
- http://spacebrew.cc/
- 
- */
-
 #include <Bridge.h>
 #include <SpacebrewYun.h>
 
 // create a variable of type SpacebrewYun and initialize it with the constructor
-SpacebrewYun sb = SpacebrewYun("YunLamp", "Range sender and receiver");
+SpacebrewYun sb = SpacebrewYun("YunLamp", "Im a lovely YunLamp");
 
 // variable that holds the last potentiometer value
 int last_value = 0;

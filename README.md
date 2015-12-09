@@ -37,9 +37,21 @@ $ npm install
 ```
 
 ## Deploy the sketch to Arduino
-Inside this repo you will also find arduino_spacebrew.ino, thats the sketch you need to load on the board to make sure everything will work.
+Inside this repo you will also find arduino_spacebrew.ino, thats the sketch you need to load on the board to make sure everything will work, this version is intended to work on the Arduino Yun Board.
 Also you might want to connect your RGB Led Strip following this scheme.
+You might notice differences from the arduino sketch and this scheme, in my case the RGB wires are plugged differently, in my sketch PIN3 is RED, PIN5 is GREEN and PIN6 is BLUE.
 ![led strip scheme](https://learn.adafruit.com/system/assets/assets/000/002/692/original/led_strips_ledstripfet.gif)
+
+## Connect things up inside Spacebrew.cc
+This version of the code works using the Spacebrew sandbox, for production cases you might want to host your own Spacebrew Server, follow the guides on Spacebrew websites for more infos.
+
+##### The Spacebrew Sandbox
+Open the Spacebrew Sandbox by visiting this link:
+* Spacebrew Admin Sandbox (http://spacebrew.github.io/spacebrew/admin/admin.html?server=sandbox.spacebrew.cc)
+
+##### Connect the App to the YunLamp
+To connect your app to the lamp just link your YunLampController to the YunLamp like in this image:
+![spacebrew links](http://www.koodit.it/macchie/spacebrew_yunlamp_link.png)
 
 ## Launching the App
 After installing the needed dependencies you are done, launch your app with a simple
