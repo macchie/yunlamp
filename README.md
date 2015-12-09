@@ -36,12 +36,18 @@ Once the repo is cloned or the zip is downloaded get in the **koonic** folder th
 $ npm install
 ```
 
+## Deploy the sketch to Arduino
+Inside this repo you will also find arduino_spacebrew.ino, thats the sketch you need to load on the board to make sure everything will work.
+Also you might want to connect your RGB Led Strip following this scheme.
+![led strip scheme](https://learn.adafruit.com/system/assets/assets/000/002/692/original/led_strips_ledstripfet.gif)
+
 ## Launching the App
 After installing the needed dependencies you are done, launch your app with a simple
 ```sh
 $ ionic serve
 ```
 and enjoy! :)
+
 
 ## More info
 
