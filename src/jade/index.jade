@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width" name="viewport")
+    title 💡YunLamp
+
+    link(href="css/ionic.app.min.css" rel="stylesheet")
+    
+    // ionic/angularjs js
+    script(src="lib/ionic/js/ionic.bundle.js")
+
+    // cordova script (this will be a 404 during development)
+    script(src="cordova.js")
+    
+    // your app's js
+    script(src="js/spacebrew.js")
+    script(src="js/application.js")
+        
+  body(ng-app="yunlamp")
+    ion-nav-view

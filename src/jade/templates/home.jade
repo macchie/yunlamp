@@ -1,0 +1,40 @@
+ion-view
+	ion-nav-bar.bar-assertive
+		ion-nav-title 💡YunLamp
+
+	ion-content(scroll="false")
+		.list
+			.item.range.range-assertive
+				i.icon.ion.ios.ion-ios-sunny-outline.assertive
+				input(type="range" name="red" min="0" max="255" value="0" ng-model="red" ng-change="updateRed(red)")
+				i.icon.ion.ios.ion-ios-sunny.assertive
+
+			.item.range.range-balanced
+				i.icon.ion.ios.ion-ios-sunny-outline.balanced
+				input(type="range" name="green" min="0" max="255" value="0" ng-model="green" ng-change="updateGreen(green)")
+				i.icon.ion.ios.ion-ios-sunny.balanced
+
+			.item.range.range-positive
+				i.icon.ion.ios.ion-ios-sunny-outline.positive
+				input(type="range" name="blue" min="0" max="255" value="0" ng-model="blue" ng-change="updateBlue(blue)")
+				i.icon.ion.ios.ion-ios-sunny.positive
+
+		.row
+			.col
+				.button-bar
+					.button.button-assertive(ng-click="updateRed(255); updateGreen(0); updateBlue(0);")
+					.button.button-balanced(ng-click="updateRed(0); updateGreen(255); updateBlue(0);")
+					.button.button-positive(ng-click="updateRed(0); updateGreen(0); updateBlue(255);")
+					.button.button-energized(ng-click="updateRed(255); updateGreen(150); updateBlue(0);")
+					.button.button-royal(ng-click="updateRed(255); updateGreen(0); updateBlue(150);")
+		
+		.row
+			.col
+				.button.button-clear.button-block.button-positive(ng-click="toggleDemoMode()")
+					| Demo Mode: 
+					b(ng-show="demo_mode") Enabled
+					b(ng-show="!demo_mode") Disabled
+
+		.row
+			.col.text-center
+				p http://github.com/macchie/yunlamp

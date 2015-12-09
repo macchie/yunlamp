@@ -1,0 +1,11 @@
+{
+  "name": "yunlamp",
+  "app_id": "5163c3c5",
+  "gulpStartupTasks": [
+    "default"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
