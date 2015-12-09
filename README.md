@@ -27,11 +27,11 @@ To start editing this Ionic Project clone the repo or download the zip:
 To clone this repo simply launch this command:
 
 ```sh
-$ git clone https://github.com/imakkie/koonic
+$ git clone https://github.com/imakkie/yunlamp
 ```
 
 ## Install NPM Dependencies
-Once the repo is cloned or the zip is downloaded get in the **koonic** folder through your Terminal App and launch this command to install all needed dependencies:
+Once the repo is cloned or the zip is downloaded get in the **yunlamp** folder through your Terminal App and launch this command to install all needed dependencies:
 ```sh
 $ npm install
 ```
