@@ -1,3 +1,5 @@
+[![Donate to support](http://www.koodit.it/macchie/donate_button.png)](http://www.paypal.me/macchie)
+
 # YunLamp
 
 A simple Ionic Application that controls an Arduino RGB Lamp using Spacebrew.cc
